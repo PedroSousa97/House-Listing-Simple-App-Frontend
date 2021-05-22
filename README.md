@@ -1,4 +1,4 @@
-# Technical-Challenge-Frontend
+# Technical-Challenge-Frontend (React)
 
 <p align="center">
     <h3 align="center">Project Overview</h3>
