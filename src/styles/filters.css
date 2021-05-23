@@ -1,0 +1,29 @@
+.filter-board {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+input {
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.labels {
+  font-weight: bold;
+  color: #6f7888;
+}
+
+.clearFilters {
+  font-weight: bold;
+  color: #0099ff;
+}

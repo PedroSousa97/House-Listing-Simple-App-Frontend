@@ -11,11 +11,19 @@ class List extends Component {
         this.state = { 
             message: "",
             properties: [],
-            filters: [],
+            filters: {
+                studio: false,
+                one: false,
+                two: false,
+                three: false,
+                four: false,
+                other: "",
+            },
             query: "?",
             show: false
          }
          this.handleOnDelete = this.handleOnDelete.bind(this)
+         this.handleOther = this.handleOther.bind(this)
     }
 
     componentDidMount(){
@@ -37,6 +45,10 @@ class List extends Component {
                 this.setState({properties: response.properties})
             }
         })
+    }
+
+    handleOther(value){
+        this.setState({filters:{other: value}})
     }
 
     handleOnDelete(key){
@@ -92,7 +104,7 @@ class List extends Component {
                     <div className="row text-center">
                         <div className="col-md-4 filters">
                             <h3 className="Filtersec">Filter number of bedrooms:</h3>
-                            <Filters/>
+                            <Filters handleOther={this.handleOther} other={this.state.filters.other}/>
                         </div>
                         <div className="col-md-8 listing">
                             <Properties data={this.state.properties} deleteHandler={this.handleOnDelete}/>
