@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
-
+import Landing from '../Components/landing'
+import List from '../Components/list'
 
 class Home extends Component {
     constructor(props) {
@@ -7,7 +8,12 @@ class Home extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <div>Home page</div> );
+        return ( 
+            <>
+                <Landing/>
+                <List/>
+            </> 
+        );
     }
 }
  

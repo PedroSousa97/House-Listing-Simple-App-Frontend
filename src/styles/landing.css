@@ -1,0 +1,199 @@
+.home {
+  display: flex;
+  background-size: 100% 100%;
+  min-height: 100vh !important;
+  width: 100% !important;
+  height: fit-content !important;
+}
+
+.wrapper .col-md-6 {
+  width: 100%;
+}
+
+.motto {
+  margin-left: -5rem !important;
+  min-width: 600px;
+  padding-top: 5rem;
+}
+
+.wrapper .row {
+  width: 100%;
+}
+.wrapper svg {
+  padding-top: 5rem;
+  width: 700px;
+  height: 700px;
+  animation: svg 2s ease;
+}
+
+.svgimg {
+  padding-top: 10rem;
+  width: 600px;
+  height: 600px;
+}
+
+#Head {
+  animation: head 4s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#Cloud1 {
+  animation: clouds linear 5s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#Cloud2 {
+  animation: clouds linear 5s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#Cloud3 {
+  animation: clouds linear 5s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#Smoke {
+  animation: smoke linear 4s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes head {
+  0% {
+    transform: rotateZ(5deg);
+  }
+  50% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(5deg);
+  }
+}
+
+@keyframes svg {
+  from {
+    transform: translateY(-100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+}
+
+@keyframes clouds {
+  0% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+@keyframes smoke {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes title {
+  from {
+    transform: translateX(-100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 100%;
+  }
+}
+
+.home h2 {
+  max-width: 100%;
+  color: #6f7888;
+  font-family: "Arial Black", sans-serif !important;
+  padding-left: 3rem;
+  font-size: 2rem !important;
+  justify-content: top;
+  align-content: top;
+  text-align: left;
+  margin-top: 10rem;
+  line-height: 3rem;
+  animation: title 2s ease;
+  text-transform: uppercase;
+}
+
+.home h3 {
+  max-width: 100%;
+  color: #6f7888;
+  padding-bottom: 8vh;
+  padding-left: 3rem;
+  font-size: 2rem !important;
+  justify-content: top;
+  align-content: top;
+  text-align: left;
+  padding-top: 2rem;
+  line-height: 3rem;
+  animation: title 3s ease;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1020px) and (orientation: portrait) {
+  .home h2 {
+    margin-top: 5rem;
+    font-size: 2rem !important;
+    padding-bottom: 0px;
+  }
+  .home h3 {
+    font-size: 2rem !important;
+    padding-top: 0.6rem !important;
+    padding-left: 4rem;
+    padding-bottom: 0px;
+  }
+  .wrapper .svg {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    width: 400px;
+    height: 400px;
+  }
+  .motto {
+    margin-left: 1rem !important;
+    min-width: 600px;
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1020px) and (orientation: landscape) {
+  .home h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem !important;
+    padding-bottom: 0px;
+  }
+  .home h3 {
+    font-size: 1.5rem !important;
+    padding-top: 0.6rem !important;
+    padding-left: 4rem;
+    padding-bottom: 0px;
+  }
+  .wrapper .svg {
+    margin-top: 0rem;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+}

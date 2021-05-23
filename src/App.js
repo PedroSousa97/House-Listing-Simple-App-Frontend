@@ -1,11 +1,5 @@
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Link,
-  Redirect
-} from "react-router-dom";
+import {BrowserRouter as Router,Route} from "react-router-dom";
 import React from 'react'
 
 import Home from './Pages/home'
@@ -23,8 +17,8 @@ function App() {
       <Router>
       <Header/>
       <div className="container">
-        {routes.map(({path, Component})=>(
-          <Route key="name" exact path={path} component={Component}/>
+        {routes.map(({name,path, Component})=>(
+          <Route key={name} exact path={path} component={Component}/>
         ))}
       </div>
       </Router>

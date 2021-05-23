@@ -1,0 +1,50 @@
+.maincard {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  text-align: left;
+  height: 130px;
+  align-content: center;
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  margin-bottom: 2rem;
+}
+
+.data {
+  margin-top: 0.8rem;
+  min-width: fit-content;
+  padding-left: 2rem;
+  color: #0099ff;
+  margin-right: 1rem;
+}
+
+.units {
+  padding-top: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  color: #6f7888 !important;
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6f7888;
+}
+
+.unit {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+}
+
+.houseimg {
+  border-radius: 5px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.housesec {
+  width: fit-content;
+  height: fit-content;
+}
