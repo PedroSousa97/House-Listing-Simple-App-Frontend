@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 10px 10px 10px;
+  height: fit-content;
+  align-items: center;
+  background-color: none;
+}
+
+.header a {
+  text-decoration: none;
+  color: #6f7888;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo h1 {
+  min-width: fit-content;
+  padding-left: 1rem;
+  margin: 0;
+  color: #0099ff;
+}
+
+.links {
+  width: 100%;
+  justify-content: right;
+  text-align: right;
+}
+
+.header a:hover {
+  color: #0099ff;
+}
