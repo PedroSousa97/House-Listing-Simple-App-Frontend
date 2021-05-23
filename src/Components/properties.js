@@ -29,6 +29,9 @@ class Properties extends Component {
                                 <p className="unit" key={Math.floor(Math.random() * 1212210)}> {this.countUnits(units,"living-room")} Living-rooms</p>
                             </div>
                         </div>
+                        <div className="deleteButton">
+                            <i key={name} className="fas fa-trash-alt" onClick={() => this.props.deleteHandler(name)}></i>
+                        </div>
                     </div>
                 ))}
             </> 

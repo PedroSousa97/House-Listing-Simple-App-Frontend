@@ -5,8 +5,22 @@ class Filters extends Component {
         super(props);
         this.state = {  }
     }
+
+    handleChange(id){
+
+    }
+
     render() { 
-        return ( <h1>Filters</h1> );
+        return ( 
+            <div className="filter-board">
+                <input type="checkbox" id="topping" name="topping" value="0" />Studio
+                <input type="checkbox" id="topping" name="topping" value="1" />1 bedroom
+                <input type="checkbox" id="topping" name="topping" value="2" />2 bedrooms
+                <input type="checkbox" id="topping" name="topping" value="3" />3 bedrooms
+                <input type="checkbox" id="topping" name="topping" value="4" />4 bedrooms
+                <input type="nummber" id="topping" name="topping" value="Paneer" />Other
+            </div>
+        );
     }
 }
  

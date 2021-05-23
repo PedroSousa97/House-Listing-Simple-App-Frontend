@@ -1,11 +1,11 @@
 .maincard {
   display: flex;
   flex-direction: row;
-  width: fit-content;
+  width: 47rem;
   text-align: left;
   height: 130px;
   align-content: center;
-  border-radius: 5px;
+  border-radius: 20px;
   background: #e0e0e0;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   margin-bottom: 2rem;
@@ -47,4 +47,18 @@
 .housesec {
   width: fit-content;
   height: fit-content;
+}
+
+.deleteButton {
+  margin-top: 3rem;
+}
+
+.deleteButton .fas {
+  color: #6f7888;
+  font-size: 2rem;
+}
+
+.deleteButton .fas:hover {
+  color: #0099ff;
+  font-size: 2rem;
 }
