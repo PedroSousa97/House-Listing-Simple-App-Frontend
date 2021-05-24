@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 
+//Simple property creation page/component
 
 class Create extends Component {
     constructor(props) {

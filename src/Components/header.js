@@ -5,6 +5,8 @@ import '../styles/header.css';
 
 import logo from '../imgs/logo.png'
 
+//Simple component that renders the Header and respective links
+
 const Header = ()=>{
     return (
         <div className="header">

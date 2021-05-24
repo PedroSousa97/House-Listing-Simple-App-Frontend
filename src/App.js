@@ -11,6 +11,7 @@ const routes = [
   {path:'/create',name:'Create',Component:Create}
 ]
 
+//The APP component is only used for the routing
 function App() {
   return (
     <>

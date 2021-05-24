@@ -14,6 +14,7 @@
   font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  transition: 1s;
 }
 
 .logo {
@@ -37,6 +38,7 @@
 
 .header a:hover {
   color: #0099ff;
+  transition: 1s;
 }
 
 @media only screen and (max-width: 1020px) and (orientation: landscape) {

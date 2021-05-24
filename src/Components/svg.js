@@ -1,5 +1,6 @@
 import React from 'react'
 
+//Simple function component used to hold the landing page SVG, the SVG is to big and should be on its own component
 
 function svg() {
     return (

@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import SVG from '../Components/svg'
 import '../styles/landing.css';
 
+//Simple component to render the landing view
 class Landing extends Component {
     constructor(props) {
         super(props);
