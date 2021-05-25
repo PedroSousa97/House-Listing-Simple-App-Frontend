@@ -67,7 +67,7 @@ class Create extends Component {
                 this.setState({error: false})   //check to see if erro = true, if it is cancel request and output message, otherwise POST request
                 return
             }else{
-                let cleanName = this.state.name.replace(/[|&;$%@"<>()+,]/g, ""); //Regex on the house name, I know this is a simple UI and overall app, but still, good practice
+                let cleanName = this.state.name.replace(/['|&;$%@"<>()+,]/g, ""); //Regex on the house name, I know this is a simple UI and overall app, but still, good practice
                 let myRequestBody ={name: cleanName,units: this.state.unitsArray}   //Build request body
 
                 let myInit = { 
