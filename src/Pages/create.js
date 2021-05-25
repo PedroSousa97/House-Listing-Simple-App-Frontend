@@ -63,20 +63,7 @@ class Create extends Component {
 
     handleSubmit(){ //handle update function 
         this.resolveUnits().then(()=>{  //resolve the number of units, and then:
-            if(this.state.name.length>28){ //Check if property name is too long
-                this.setState({
-                    message: "Property name shouldn't be longer than 28 characters",  //Output message using sweetalert
-                    show:true,
-                    name: "",   //Reset Component Sate
-                    bathroom: "",
-                    bedroom: "",
-                    kitchen: "",
-                    livingroom: "",
-                    unitsArray: []
-                })
-                return
-            }
-            else if(this.state.error === true){
+            if(this.state.error === true){
                 this.setState({error: false})   //check to see if erro = true, if it is cancel request and output message, otherwise POST request
                 return
             }else{

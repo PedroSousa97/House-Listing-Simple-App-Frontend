@@ -3,7 +3,6 @@
   flex-direction: row;
   width: 47rem;
   text-align: left;
-  height: 130px;
   align-content: center;
   border-radius: 20px;
   background: #e0e0e0;
@@ -13,7 +12,7 @@
 
 .data {
   margin-top: 0.8rem;
-  min-width: fit-content;
+  max-width: 471.06px;
   padding-left: 2rem;
   color: #0099ff;
   margin-right: 1rem;
