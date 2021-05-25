@@ -38,7 +38,7 @@ class Properties extends Component {
                 ))
                 :   //If the list of properties is empty, render a cool message to the user
                     <div className="emptyProp">
-                        <h3>Sorry, we still have no properties to be displayed.</h3>
+                        <h3>Sorry, we have no properties to be displayed.</h3>
                         <h4>Add your own!</h4>
                         <img src={noContent} alt="" className='noContent'/>
                     </div>
