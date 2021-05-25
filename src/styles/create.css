@@ -1,0 +1,129 @@
+.pageContainer {
+  min-width: 100%;
+  min-height: 100vh;
+  text-align: center !important;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  vertical-align: middle !important;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  max-width: 500px;
+  padding: auto;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  margin: auto;
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  animation: boardAnim 2s ease;
+}
+
+.forminputs {
+  padding: 2rem;
+}
+
+.forminputs h3 {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+.theForm {
+  padding: 2rem;
+  text-align: left;
+}
+
+.theForm p {
+  font-weight: bold;
+  color: #6f7888;
+  width: 100%;
+}
+
+.namecontainer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+.nameInput {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0099ff;
+  border-radius: 5px;
+  color: black;
+  width: 100%;
+  margin-left: 0rem !important;
+}
+
+.nameInput input {
+  margin-left: 0rem !important;
+}
+
+.unitsSection {
+  text-align: left;
+}
+
+.inputs {
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0px !important;
+  width: 100%;
+  margin-left: 0rem !important;
+}
+
+.inputs p {
+  margin: auto;
+  padding-left: 1rem;
+}
+
+.inputs input {
+  max-width: 80px;
+  margin-left: 0rem;
+}
+
+.unitsInputs {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #0099ff;
+  border-radius: 5px;
+  color: black;
+  width: 100%;
+}
+
+.createButton {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #6f7888;
+  transition: 1s;
+  min-height: 3rem;
+  min-width: 10rem;
+  transition: 1s;
+}
+
+.createButton:hover {
+  background-color: #0099ff;
+  transition: 1s;
+}
+
+@keyframes boardAnim {
+  from {
+    transform: translateY(100%);
+    opacity: 0%;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 100%;
+  }
+}

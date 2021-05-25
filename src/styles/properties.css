@@ -56,11 +56,13 @@
 .deleteButton .fas {
   color: #6f7888;
   font-size: 2rem;
+  transition: 1s;
 }
 
 .deleteButton .fas:hover {
   color: #0099ff;
   font-size: 2rem;
+  transition: 1s;
 }
 
 .emptyProp h3 {
