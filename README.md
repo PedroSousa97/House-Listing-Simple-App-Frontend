@@ -8,6 +8,8 @@ This project represents the front-end of the house listing app. Front-end and ba
 
 This is a simple UI created using React, the goal is to create a simple front-end that enables the user to interact with the different back-end endpoints.
 
+You can find the backend of this project at: https://github.com/PedroSousa97/House-Listing-Simple-App-Backend
+
 ## Author
 
 Pedro Henrique Santos Sousa
